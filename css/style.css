@@ -9,7 +9,7 @@ width:100%;
 
 #content{
 width:960px;
-background-color: red;
+/*background-color: red;*/
 margin:0 auto;
 }
 
@@ -17,13 +17,29 @@ margin:0 auto;
 margin:0 auto;
 }
 
-#top {
+#top{
   width:960px;
-  background-color: green;
-  padding:20px;
+  /*background-color: green;*/
+}
 
+#top > article{
+  width:490px;
+  padding-right:5px;
+  float:left;
+  padding-left:20px;
+}
+
+#top > img{
+  width:400px;
+  height:300px;
+  padding-left:5px;
+  padding-right:40px;
+  padding-top:20px;
+  padding-bottom:20px;
+  float:left;
+  /*background-color: yellow;*/
 }
 
 .clear{
-  float:none;
+  clear:both;
 }
