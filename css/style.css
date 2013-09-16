@@ -1,6 +1,6 @@
 body{
 background-image:url(../images/background_light.jpg);
-
+background-repeat: repeat-x top center;
 }
 
 #wrapper{
@@ -25,5 +25,23 @@ margin:0 auto;
 }
 
 .clear{
-  float:none;
+  clear:both;
+}
+
+#left{
+  background-color: blue;
+  width: 730px;
+  float: left;
+}
+
+#right{
+  background-color: pink;
+  width: 230px;
+  float: left;
+}
+
+footer {
+  background-color: black;
+  width: 960px;
+  clear: both;
 }
