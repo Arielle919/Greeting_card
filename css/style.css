@@ -1,9 +1,24 @@
-#wrapper{
+body{
+background-image: url(images/background_light.jpg);
 
 }
 
-#content{
+#wrapper{
+width:100%;
+}
 
+#content{
+width:960px;
+background-color: red;
+margin:0 auto;
+}
+
+#header{
+margin:0 auto;
+}
+
+section > #top {
+  padding:20px;
 }
 
 .clear{
